@@ -8,7 +8,7 @@ import "./app.scss";
 
 function App() {
     const path = "https://micetf.fr";
-    const tool = "Ordonner des nombres";
+    const tool = "Ordo'Nombres";
 
     return (
         <>
