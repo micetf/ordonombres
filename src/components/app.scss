@@ -1,0 +1,37 @@
+@import "~bootstrap/scss/bootstrap";
+body {
+    margin-top: 70px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+}
+
+.message {
+    min-height: 5rem;
+}
+
+#sortable {
+    display:flex;
+    min-height: 50vh;
+    align-items: flex-end;
+    .nombre {
+        width: 10vw;
+        height: 10vw;
+        line-height: 8vw;
+        text-align: center;
+        font-size: 1.5rem;
+        cursor: grab;
+        background-color: #F23041;
+        color: #F2E6D0;
+        border-radius: 50%;
+        border: 1vw solid #BF8D50;
+    }
+    &.ui-sortable-disabled .nombre {
+        cursor: auto;
+    }
+}
+// Couleurs :
+// #F23041
+// #F2E6D0
+// #BF8D50
+// #F2B9AC
+// #0D0D0D

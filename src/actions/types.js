@@ -1,0 +1,5 @@
+export const MAJ_INTERVALLE = "MAJ_INTERVALLE";
+export const MAJ_ORDRE = "MAJ_ORDRE";
+export const MAJ_MESSAGE = "MAJ_MESSAGE";
+export const TOGGLE_VISIBILITE_AIDE = "TOGGLE_VISIBILITE_AIDE";
+export const REJOUER = "REJOUER";
