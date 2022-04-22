@@ -9,6 +9,13 @@
   dependencies:
     "@jridgewell/trace-mapping" "^0.3.0"
 
+"@andxor/jquery-ui-touch-punch-fix@^1.0.2":
+  version "1.0.2"
+  resolved "https://registry.yarnpkg.com/@andxor/jquery-ui-touch-punch-fix/-/jquery-ui-touch-punch-fix-1.0.2.tgz#8ed8816bc818dd3e9fb4014850d8450ef1308435"
+  integrity sha512-hdphePfQOxknA9BympZUtbIsXyogz7TgmKykIJrwjS67F4sIhaQJBhlijjkB4xfgFbHPjcJSr9jer09hDuPnaw==
+  dependencies:
+    jquery-ui "^1.12.1"
+
 "@babel/code-frame@^7.0.0", "@babel/code-frame@^7.16.7":
   version "7.16.7"
   resolved "https://registry.yarnpkg.com/@babel/code-frame/-/code-frame-7.16.7.tgz#44416b6bd7624b998f5b1af5d470856c40138789"
@@ -2983,16 +2990,6 @@ jest-worker@^27.4.5:
     "@types/node" "*"
     merge-stream "^2.0.0"
     supports-color "^8.0.0"
-
-jquery-ui-touch-punch-c@^1.4.0:
-  version "1.4.0"
-  resolved "https://registry.yarnpkg.com/jquery-ui-touch-punch-c/-/jquery-ui-touch-punch-c-1.4.0.tgz#20a209df055a34a4546a93d10dca45a35dbc8fd2"
-  integrity sha1-IKIJ3wVaNKRUapPRDcpFo128j9I=
-
-jquery-ui-touch-punch@^0.2.3:
-  version "0.2.3"
-  resolved "https://registry.yarnpkg.com/jquery-ui-touch-punch/-/jquery-ui-touch-punch-0.2.3.tgz#eed82242733ba243f46b3e87c1841b308191da68"
-  integrity sha1-7tgiQnM7okP0az6HwYQbMIGR2mg=
 
 jquery-ui@^1.12.1:
   version "1.13.1"

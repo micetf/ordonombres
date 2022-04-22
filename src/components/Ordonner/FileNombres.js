@@ -1,7 +1,7 @@
 import { useEffect } from "react";
 import "webpack-jquery-ui/sortable";
 import "webpack-jquery-ui/css";
-import "jquery-ui-touch-punch";
+import "@andxor/jquery-ui-touch-punch-fix";
 import Nombre from "./Nombre.js";
 
 function FileNombres({ shuffledCards, effacerMessage, sortable }) {
