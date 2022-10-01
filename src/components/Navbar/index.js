@@ -1,6 +1,5 @@
 import React from "react";
 import Svg, { CHEVERON_RIGHT } from "../Svg";
-import "bootstrap/js/dist/collapse";
 
 const liRender = (item, index) => (
     <li key={index} className="nav-item">
